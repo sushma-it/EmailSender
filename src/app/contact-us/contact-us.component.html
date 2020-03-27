@@ -1,0 +1,11 @@
+<form class="contact-form" (submit)="sendEmail($event)">
+    <label>Name</label>
+    <input type="text" name="from_name">
+    <label>Support Email</label>
+    <input type="email" name="to_email">
+    <label>Reply To Email</label>
+    <input type="email" name="reply_to">
+    <label>Message</label>
+    <textarea name="message_html"></textarea>
+    <input type="submit" value="Send">
+</form>
